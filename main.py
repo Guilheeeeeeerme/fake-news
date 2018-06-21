@@ -168,14 +168,14 @@ try:
 except IndexError:
     print(TypeError.message)
 
-# try: 
-# 	print('Pipeline Gaussian')
-# 	makePipelineGaussianNB( X_train, Y_train, X_test, Y_test )
-# except TypeError:
-# 	print(TypeError.message)
+try: 
+	print('Pipeline Gaussian')
+	makePipelineGaussianNB( X_train, Y_train, X_test, Y_test )
+except TypeError:
+	print(TypeError.message)
 
-# try: 
-# 	print('Pipeline Imp Gaussian')
-# 	makePipelineImpGaussianNB( X_train, Y_train, X_test, Y_test )
-# except TypeError:
-# 	print(TypeError.message)
+try: 
+	print('Pipeline Imp Gaussian')
+	makePipelineImpGaussianNB( X_train, Y_train, X_test, Y_test )
+except TypeError:
+	print(TypeError.message)
